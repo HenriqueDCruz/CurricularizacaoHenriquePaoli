@@ -1,94 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>História dos Animais - ACAPRA</title>
-  <link rel="stylesheet" href="historystyle.css">
+  <title>ACAPRA – História</title>
+  <link rel="stylesheet" href="historystyle.css"/>
 </head>
 <body>
+
   <header>
     <nav>
       <ul class="menu">
-        <li>HOME</li>
-        <li>HISTÓRIA DA ACAPRA</li>
-        <li>DOAÇÃO</li>
-        <li>ESTATÍSTICAS</li>
-        <li>NOTÍCIAS</li>
-        <li>MAUS TRATOS</li>
-        <li>CONTATO</li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">DOAÇÃO</a></li>
+        <li><a href="#">HISTÓRIA DOS ANIMAIS</a></li>
+        <li><a href="#">ESTATÍSTICAS</a></li>
+        <li><a href="#">NOTÍCIAS</a></li>
+        <li><a href="#">MAUS TRATOS</a></li>
+        <li><a href="#">CONTATO</a></li>
       </ul>
     </nav>
   </header>
 
+
   <main>
-    <h2 class="titulo">HISTÓRIA DOS ANIMAIS</h2>
-
-    <!-- MENU DE MINIATURAS -->
-    <section class="miniaturas">
-      <img src="img/dog1.jpg" alt="Dog 1" onclick="scrollToAnimal('animal1')">
-      <img src="img/cat1.jpg" alt="Cat 1" onclick="scrollToAnimal('animal2')">
-      <img src="img/dog2.jpg" alt="Dog 2" onclick="scrollToAnimal('animal3')">
-      <img src="img/cat2.jpg" alt="Cat 2" onclick="scrollToAnimal('animal4')">
-    </section>
-
-    <!-- ANIMAL 1 -->
-    <section class="animal" id="animal1">
-      <img src="img/dog1.jpg" alt="Dog 1">
-      <div class="info">
-        <p><strong>Nome:</strong> Luna</p>
-        <p><strong>Sexo:</strong> Fêmea</p>
-        <p><strong>Idade:</strong> 3 anos</p>
-        <p><strong>Procedimentos Médicos:</strong> Vacinação, Castração</p>
-        <p><strong>Descrição:</strong> Muito brincalhona, se dá bem com outros cães.</p>
-        <p><strong>Estado de Saúde:</strong> Saudável</p>
+    <section class="history">
+      <div class="history-title">
+        <div class="paw"></div>
+        <h2>HISTÓRIA DA ACAPRA</h2>
+        <div class="paw"></div>
       </div>
-    </section>
-
-    <!-- ANIMAL 2 -->
-    <section class="animal" id="animal2">
-      <img src="img/cat1.jpg" alt="Cat 1">
-      <div class="info">
-        <p><strong>Nome:</strong> Biscoito</p>
-        <p><strong>Sexo:</strong> Macho</p>
-        <p><strong>Idade:</strong> 2 anos</p>
-        <p><strong>Procedimentos Médicos:</strong> Cirurgia ocular, Castração</p>
-        <p><strong>Descrição:</strong> Calmo, adora colo, ideal para ambientes tranquilos.</p>
-        <p><strong>Estado de Saúde:</strong> Recuperado da cirurgia</p>
-      </div>
-    </section>
-
-    <!-- ANIMAL 3 -->
-    <section class="animal" id="animal3">
-      <img src="img/dog2.jpg" alt="Dog 2">
-      <div class="info">
-        <p><strong>Nome:</strong> Thor</p>
-        <p><strong>Sexo:</strong> Macho</p>
-        <p><strong>Idade:</strong> 4 anos</p>
-        <p><strong>Procedimentos Médicos:</strong> Vacinas completas</p>
-        <p><strong>Descrição:</strong> Ativo, adora passear e correr, ótimo com crianças.</p>
-        <p><strong>Estado de Saúde:</strong> Saudável</p>
-      </div>
-    </section>
-
-    <!-- ANIMAL 4 -->
-    <section class="animal" id="animal4">
-      <img src="img/cat2.jpg" alt="Cat 2">
-      <div class="info">
-        <p><strong>Nome:</strong> Mimi</p>
-        <p><strong>Sexo:</strong> Fêmea</p>
-        <p><strong>Idade:</strong> 1 ano</p>
-        <p><strong>Procedimentos Médicos:</strong> Castração</p>
-        <p><strong>Descrição:</strong> Muito curiosa e sociável, ótima companhia.</p>
-        <p><strong>Estado de Saúde:</strong> Saudável</p>
+      <div class="history-content">
+        <div class="column">
+          <p>
+            A Associação Protetora de Animais de Blumenau (APRABLU) é uma organização não governamental dedicada ao bem-estar e à proteção dos direitos dos animais na cidade de Blumenau, Santa Catarina. Fundada em 1999 sob o nome de ACAPRA-BLU, a entidade tornou-se independente e foi renomeada para APRABLU, atuando desde então com o apoio de voluntários comprometidos com a causa animal.
+          </p>
+          <p>
+            A APRABLU não possui sede própria nem abrigo para acomodar os animais resgatados, sendo mantida exclusivamente por doações de voluntários e patrocinadores, sem receber apoio financeiro de órgãos públicos. A organização segue os princípios da Declaração Universal dos Direitos dos Animais, proclamada pela UNESCO em 1978, e trabalha na orientação sobre a posse responsável de animais domésticos, buscando conscientizar a população e promover a adoção responsável.
+          </p>
+        </div>
+        <div class="column">
+            <img src="dog2.png" alt="Cachorro fofo" class="dog-image" />
+          </div>
       </div>
     </section>
   </main>
 
-  <script>
-    function scrollToAnimal(id) {
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
-  </script>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-item">
+        <div class="paw"></div>
+        <div>
+          <p>QUER AJUDAR VIA PIX?</p>
+          <p><strong>CNPJ = 03.772.251.0001-82</strong></p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <h1>ACAPRA</h1>
+      </div>
+      <div class="footer-item">
+        <p>"TRANSFORME VIDAS:<br/>ADOTE UM AMIGO FIEL HOJE!"</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
