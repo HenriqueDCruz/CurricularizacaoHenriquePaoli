@@ -1,0 +1,80 @@
+.doacoes {
+    background-color: #a5a293;
+    padding: 40px;
+    border-top: 5px solid #3b3432;
+    border-bottom: 5px solid #3b3432;
+  }
+  
+  .doacoes .titulo {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  .doacoes .icon {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .doacoes-conteudo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .doacoes-conteudo img {
+    width: 250px;
+    height: auto;
+    border: 2px solid #000;
+  }
+  
+  .doacoes-conteudo .textos {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #bdb7aa;
+    padding: 20px;
+    border: 4px solid #3b3432;
+  }
+  
+  .pontos-coleta {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .pontos-coleta h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .pontos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-weight: bold;
+  }
+  
+  .rodape {
+    display: flex;
+    justify-content: space-between;
+    background-color: #a5a293;
+    border-top: 5px solid #3b3432;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .rodape .pix,
+  .rodape .mensagem {
+    width: 30%;
+    font-size: 14px;
+  }
+  
+  .rodape .marca h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  

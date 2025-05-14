@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #d3cec2;
+    color: #000;
+  }
+  
+  header {
+    background-color: #3b3432;
+    color: #fff;
+    padding-bottom: 10px;
+  }
+  
+  nav {
+    background-color: #3b3432;
+    padding: 10px 0;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 14px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c6c2b5;
+    padding: 15px 30px;
+    text-align: center;
+  }
+  
+  .header-content h1 {
+    font-size: 36px;
+  }
+  
+  .pix-info, .slogan {
+    width: 25%;
+    font-size: 13px;
+  }
+  
+  .pix-info img {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 10px;
+    background-color: #bdb7aa;
+    position: relative;
+  }
+  
+  .texto {
+    width: 60%;
+    padding: 0 20px;
+    text-align: justify;
+  }
+  
+  .patas {
+    font-size: 20px;
+    line-height: 30px;
+    width: 10%;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #3b3432;
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .instagram img {
+    width: 25px;
+  }
+  
