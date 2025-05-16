@@ -1,46 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Estatísticas - ACAPRA</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<style>
+    h2 {
+        font-size: 20px;
+    }
+
+  .card {
+    display: inline-block;
+    max-width: 1000px;
+    width: auto;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+
+  .card h2,
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+
+  .card p {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .instagram a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+</style>
+
 <body>
   <header>
     <nav>
       <ul class="menu">
-        <li>HOME</li>
-        <li>HISTÓRIA DA ACAPRA</li>
-        <li>DOAÇÃO</li>
-        <li>HISTÓRIA DOS ANIMAIS</li>
-        <li>NOTÍCIAS</li>
-        <li>MAUS TRATOS</li>
-        <li>CONTATO</li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="capra.html">HISTÓRIA DA ACAPRA</a></li>
+        <li><a href="doacoes.html">DOAÇÃO</a></li>
+        <li><a href="animais.html">ANIMAIS</a></li>
+        <li><a href="estatisticas.html">ESTATÍSTICAS</a></li>
+        <li><a href="noticias.html">NOTÍCIAS</a></li>
+        <li><a href="denuncia.html">MAUS TRATOS</a></li>
+        <li><a href="contatos.html">CONTATO</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="estatisticas">
-      <h2 class="titulo-sec">ESTATÍSTICAS</h2>
 
-      <div class="cards">
-        <img src="img/est1.png" alt="Gráfico de cachorros">
-        <img src="img/est2.png" alt="Mapa das ONGs">
-        <img src="img/est3.png" alt="Gráfico de gatos">
-      </div>
+    <br><br>
 
-      <div class="descricao-est">
-        <div class="texto">
-          <p><strong>Brasil e os Pets:</strong> Mais de 170 mil animais estão sob cuidados de ONGs no Brasil. A maior parte dessas instituições é de pequeno porte.</p>
-          <p><strong>Perfil dos Animais:</strong> Entre os cães resgatados, 32% são sem raça definida e 24% são SRD de porte médio. Gatos representam 52% dos casos com SRD.</p>
-          <p><strong>Lares com pets:</strong> 72% dos brasileiros possuem algum pet em casa. Além disso, 94% já tiveram um animal de estimação alguma vez na vida.</p>
-          <p><strong>Importância da Adoção:</strong> Diante dos altos índices de abandono, a adoção consciente e o apoio às ONGs são medidas fundamentais para transformar essa realidade.</p>
-        </div>
-        <img src="img/est4.png" alt="Estatísticas de lares com pets">
-      </div>
+    <h1 class="titulo">Estatísticas sobre Animais na ACAPRA</h1>
+
+    <br><br><br>
+
+    <section class="card">
+      <h2>Abandono de Animais</h2>
+      <p>Em média, são resgatados 30 animais por mês na região. O abandono ainda é uma das principais causas do número crescente de animais de rua. Cães e gatos são os mais afetados, principalmente fêmeas não castradas.</p>
+    </section>
+    
+    <br>
+
+    <section class="card">
+      <h2>Adoções Realizadas</h2>
+      <p>Desde 2020, mais de 450 animais foram adotados através da ACAPRA. A maioria dos adotantes são famílias que procuram por cães de pequeno porte, embora a adoção de gatos esteja em crescimento constante.</p>
+    </section>
+
+    <br>
+
+    <section class="card">
+      <h3>Custos Médios Mensais</h2>
+      <p>O custo médio mensal para manter os cuidados veterinários, alimentação e medicamentos gira em torno de R$ 12.000,00. Castrações, vacinas e tratamentos para doenças como cinomose e FIV/FELV são os maiores custos.</p>
+    </section>
+
+    <br>
+
+    <section class="card">
+      <h2>Impacto da Castração</h2>
+      <p>Programas de castração têm contribuído significativamente para o controle populacional. Apenas em 2024, mais de 200 animais foram castrados com apoio de parcerias públicas e privadas.</p>
+    </section>
+
+    <br>
+
+    <section class="card">
+      <h2>Voluntariado e Doações</h2>
+      <p>A ACAPRA conta com cerca de 50 voluntários ativos e depende de doações para manter as atividades. A colaboração da comunidade é essencial para continuar salvando vidas.</p>
     </section>
   </main>
+
+  <br><br><br>
+
+  <footer>
+    <div class="instagram">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new.png" alt="Instagram" />
+      <span>
+        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank" rel="noopener noreferrer" class="menu-link">Instagram</a>
+      </span>
+    </div>
+  </footer>
 </body>
 </html>
